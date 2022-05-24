@@ -1,0 +1,7 @@
+[tool.black]
+# Match tox.ini. default for flake8 is 79
+line-length = 79
+include = '\.pyi?$'
+target-version = ['py310']
+# Match tox.ini.
+--extend-exclude = '.git,__pycache__,build,dist'
