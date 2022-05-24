@@ -9,6 +9,6 @@
 			80
 		],
 		"editor.minimap.enabled": false,
-		"editor.defaultFormatter": "Trunk.io"
+		"editor.defaultFormatter": "trunk.io"
 	}
 }
