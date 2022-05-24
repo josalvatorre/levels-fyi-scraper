@@ -1,5 +1,6 @@
-import itertools
 import pathlib
+
+import bs4
 
 from .ResponseCache import ResponseCache
 
@@ -8,7 +9,6 @@ cache_dir.mkdir(exist_ok=True)
 
 for _ in range(2):
     response = ResponseCache(cache_dir).get("https://www.levels.fyi/company/")
-    text = response.text
-    for line in itertools.islice(text, 0, 5):
-        print(line)
+    data = bs4.BeautifulSoup(response.text, "html.parser")
+    print(len(data.body))
     pass
