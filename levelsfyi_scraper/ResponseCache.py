@@ -13,7 +13,11 @@ class ResponseCache:
 
     def _cache_path(self: "ResponseCache", url: str) -> pathlib.Path:
         charset = "utf-8"
-        normalized_url: str = url_normalize.url_normalize(url, charset)
+        # strangely, url_normalize does not remove trailing slashes
+        normalized_url: str = url_normalize.url_normalize(
+            url.rstrip("/"),
+            charset,
+        )
         url_base64 = base64.urlsafe_b64encode(
             bytes(normalized_url, encoding=charset)
         )
@@ -25,13 +29,13 @@ class ResponseCache:
     def get(self: "ResponseCache", url: str) -> requests.Response:
         cache_path = self._cache_path(url)
         if cache_path.exists():
-            with open(cache_path, 'rb') as cache_file:
+            with open(cache_path, "rb") as cache_file:
                 print("returning from cache")
                 return pickle.load(cache_file)
 
-        print("making actual request")
+        print(f"making actual request to '{url}'")
         response = requests.get(url)
-        with open(cache_path, 'wb') as cache_file:
+        with open(cache_path, "wb") as cache_file:
             pickle.dump(response, cache_file)
         return response
 
