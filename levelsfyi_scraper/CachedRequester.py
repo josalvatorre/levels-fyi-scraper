@@ -6,12 +6,12 @@ import requests
 import url_normalize
 
 
-class ResponseCache:
-    def __init__(self: "ResponseCache", cache_root: pathlib.Path) -> None:
+class CachedRequester:
+    def __init__(self: "CachedRequester", cache_root: pathlib.Path) -> None:
         self.cache_root = cache_root
         pass
 
-    def _cache_path(self: "ResponseCache", url: str) -> pathlib.Path:
+    def _cache_path(self: "CachedRequester", url: str) -> pathlib.Path:
         charset = "utf-8"
         # strangely, url_normalize does not remove trailing slashes
         normalized_url: str = url_normalize.url_normalize(
@@ -26,7 +26,7 @@ class ResponseCache:
             url_base64.decode(),
         )
 
-    def get(self: "ResponseCache", url: str) -> requests.Response:
+    def get(self: "CachedRequester", url: str) -> requests.Response:
         cache_path = self._cache_path(url)
         if cache_path.exists():
             with open(cache_path, "rb") as cache_file:
