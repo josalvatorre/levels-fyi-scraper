@@ -5,3 +5,7 @@ include = '\.pyi?$'
 target-version = ['py310']
 # Match tox.ini.
 --extend-exclude = '.git,__pycache__,build,dist'
+
+[tool.isort]
+line_length = 79
+profile = "black"
