@@ -59,7 +59,8 @@ class LevelSalary(NamedTuple):
 
     def names(self: "LevelSalary") -> Tuple[str, ...]:
         return tuple(
-            name for name in (self.level_name, self.title, self.layman_title)
+            name
+            for name in (self.level_name, self.title, self.layman_title)
             if name is not None
         )
 

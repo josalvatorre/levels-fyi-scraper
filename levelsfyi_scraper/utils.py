@@ -37,5 +37,5 @@ def if_error(function: Callable[[], T], substitute: U = None) -> Union[T, U]:
 def normalized_http_url(url: str) -> str:
     return url_normalize.url_normalize(
         url.rstrip("/"),
-        'utf-8',
+        "utf-8",
     )
