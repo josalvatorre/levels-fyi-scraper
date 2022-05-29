@@ -69,7 +69,7 @@ class LevelSalary(NamedTuple):
 
 def salary_rows(swe_salary_page: bs4.BeautifulSoup) -> Iterable[LevelSalary]:
     def to_dollars(text: str) -> int:
-        if text == "N/A":
+        if any(null_value in text for null_value in ("N/A", "NaN")):
             return 0
         text = text.strip()
 
@@ -78,11 +78,13 @@ def salary_rows(swe_salary_page: bs4.BeautifulSoup) -> Iterable[LevelSalary]:
             denomination = 1_000
         elif text[-1] == "M":
             denomination = 1_000_000
+        elif text[-1].isdigit():
+            denomination = 1
         else:
             raise Exception("unrecognized denomination")
 
         text = text.lstrip("$").rstrip("KM")
-        return int(text) * denomination
+        return round(float(text) * denomination)
 
     def to_level_salary(row: bs4.Tag) -> LevelSalary:
         level_cell, total_cell, base_cell, stock_cell, bonus_cell = tuple(
@@ -161,23 +163,37 @@ def company_name_from_url(url: str) -> str:
     return chunks[chunks.index("company") + 1]
 
 
-company_salary_rows = {
-    company_name_from_url(salary_url): salary_levels_cache.get(
-        company_name_from_url(salary_url),
-        lambda: utils.if_error(
+def company_name_and_salaries(
+    swe_salary_url: str,
+) -> Tuple[str, Tuple[LevelSalary, ...]]:
+    def get_salaries() -> Union[str, Tuple[LevelSalary, ...]]:
+        return salary_levels_cache.get(
+            company_name,
             lambda: tuple(
                 salary_rows(
                     bs4.BeautifulSoup(
-                        cached_requester.get(salary_url).text,
+                        cached_requester.get(swe_salary_url).text,
                         HTML_PARSER,
                     )
                 )
             ),
-            "error getting salary rows",
-        ),
-    )
-    for salary_url in swe_urls
-}
+            err_string,
+        )
+
+    company_name = company_name_from_url(swe_salary_url)
+    err_string = "error getting salary rows"
+
+    rows = get_salaries()
+    if not isinstance(rows, tuple):
+        salary_levels_cache.clear(company_name)
+        raise Exception("unexpected data type")
+
+    return (company_name, rows)
+
+
+company_salary_rows = dict(
+    company_name_and_salaries(salary_url) for salary_url in swe_urls
+)
 highest_pre_senior_companies = sorted(
     (
         (name, rows)
@@ -199,4 +215,11 @@ with open("company_salary_rows.txt", "w") as csr_file:
             default=lambda salary_row: salary_row._asdict(),
         ),
         file=csr_file,
+    )
+    print(
+        json.dumps(
+            [pair[0] for pair in highest_pre_senior_companies],
+            sort_keys=True,
+            indent=4,
+        )
     )

@@ -30,4 +30,13 @@ class PickleFileCache:
             pickle.dump(value, cache_file)
         return value
 
+    def clear(
+        self: "PickleFileCache",
+        key: str,
+        missing_ok: bool = False,
+    ) -> None:
+        cache_path = self._cache_path(key)
+        cache_path.unlink(missing_ok=missing_ok)
+        pass
+
     pass

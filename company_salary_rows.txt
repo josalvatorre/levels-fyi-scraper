@@ -1,5 +1,402 @@
 [
     [
+        "OYO",
+        [
+            [
+                "SDE I",
+                "3a",
+                "(Entry Level)",
+                17000,
+                15000,
+                0,
+                1700
+            ],
+            [
+                "SDE II",
+                "4a",
+                null,
+                31000,
+                27000,
+                5500,
+                1700
+            ]
+        ]
+    ],
+    [
+        "Yandex",
+        [
+            [
+                "G14",
+                "(Entry Level)",
+                null,
+                21000,
+                20000,
+                0,
+                583
+            ],
+            [
+                "G15",
+                null,
+                null,
+                32000,
+                27000,
+                4200,
+                3400
+            ],
+            [
+                "G16",
+                null,
+                null,
+                48000,
+                35000,
+                9500,
+                5700
+            ],
+            [
+                "G17",
+                null,
+                null,
+                71000,
+                42000,
+                23000,
+                6900
+            ],
+            [
+                "G18",
+                null,
+                null,
+                106000,
+                49000,
+                45000,
+                11000
+            ]
+        ]
+    ],
+    [
+        "Flipkart",
+        [
+            [
+                "SDE 1",
+                "(Entry Level)",
+                null,
+                33000,
+                27000,
+                4300,
+                2500
+            ],
+            [
+                "SDE 2",
+                null,
+                null,
+                50000,
+                38000,
+                8000,
+                3600
+            ],
+            [
+                "SDE 3",
+                null,
+                null,
+                78000,
+                58000,
+                15000,
+                7400
+            ],
+            [
+                "SDE 4",
+                "Tech Lead",
+                null,
+                122000,
+                75000,
+                37000,
+                11000
+            ]
+        ]
+    ],
+    [
+        "Ubisoft",
+        [
+            [
+                "L1",
+                "(Entry Level)",
+                null,
+                54000,
+                52000,
+                0,
+                2000
+            ],
+            [
+                "L2",
+                null,
+                null,
+                67000,
+                61000,
+                1000,
+                6500
+            ],
+            [
+                "L3",
+                null,
+                null,
+                92000,
+                82000,
+                0,
+                9500
+            ]
+        ]
+    ],
+    [
+        "Cerner",
+        [
+            [
+                "Software Engineer",
+                "(Entry Level)",
+                null,
+                72000,
+                72000,
+                0,
+                125
+            ],
+            [
+                "Associate Senior Software Engineer",
+                null,
+                null,
+                79000,
+                78000,
+                1300,
+                0
+            ],
+            [
+                "Senior Software Engineer",
+                null,
+                null,
+                101000,
+                99000,
+                5100,
+                1500
+            ],
+            [
+                "Associate Lead Software Engineer",
+                null,
+                null,
+                116000,
+                116000,
+                0,
+                0
+            ],
+            [
+                "Lead Software Engineer",
+                null,
+                null,
+                139000,
+                123000,
+                17000,
+                7500
+            ]
+        ]
+    ],
+    [
+        "Intercom",
+        [
+            [
+                "Product Engineer 1",
+                "(Entry Level)",
+                null,
+                68000,
+                67000,
+                2000,
+                0
+            ],
+            [
+                "Product Engineer 2",
+                null,
+                null,
+                83000,
+                78000,
+                25000,
+                1300
+            ],
+            [
+                "Product Engineer 3",
+                null,
+                null,
+                91000,
+                91000,
+                0,
+                0
+            ]
+        ]
+    ],
+    [
+        "Accenture",
+        [
+            [
+                "Associate Software Engineer",
+                "ASE",
+                "(Entry Level)",
+                66000,
+                63000,
+                0,
+                4000
+            ],
+            [
+                "Software Engineer Analyst",
+                "SE",
+                null,
+                94000,
+                88000,
+                0,
+                6800
+            ],
+            [
+                "Senior Software Engineer",
+                "SSE",
+                null,
+                122000,
+                110000,
+                3300,
+                12000
+            ],
+            [
+                "Team Leader",
+                "TL",
+                null,
+                102000,
+                95000,
+                8000,
+                6500
+            ],
+            [
+                "Associate Manager",
+                "AM",
+                null,
+                121000,
+                115000,
+                10000,
+                5900
+            ],
+            [
+                "Manager",
+                "M",
+                null,
+                157000,
+                148000,
+                16000,
+                13000
+            ]
+        ]
+    ],
+    [
+        "Klarna",
+        [
+            [
+                "L2",
+                "(Entry Level)",
+                null,
+                80000,
+                76000,
+                3300,
+                1300
+            ],
+            [
+                "L3",
+                null,
+                null,
+                87000,
+                83000,
+                2200,
+                2000
+            ]
+        ]
+    ],
+    [
+        "Glovo",
+        [
+            [
+                "L2",
+                "(Entry Level)",
+                null,
+                83000,
+                70000,
+                13000,
+                100
+            ],
+            [
+                "L3",
+                null,
+                null,
+                95000,
+                83000,
+                15000,
+                875
+            ]
+        ]
+    ],
+    [
+        "Adyen",
+        [
+            [
+                "Software Engineer",
+                "(Entry Level)",
+                null,
+                84000,
+                80000,
+                14000,
+                333
+            ],
+            [
+                "Senior Software Engineer",
+                null,
+                null,
+                99000,
+                92000,
+                6800,
+                0
+            ]
+        ]
+    ],
+    [
+        "Target",
+        [
+            [
+                "TLP",
+                "(Entry Level)",
+                null,
+                82000,
+                79000,
+                0,
+                2000
+            ],
+            [
+                "L4",
+                null,
+                null,
+                87000,
+                84000,
+                0,
+                3700
+            ],
+            [
+                "L5",
+                null,
+                null,
+                121000,
+                113000,
+                0,
+                8900
+            ],
+            [
+                "L6",
+                null,
+                null,
+                174000,
+                148000,
+                14000,
+                18000
+            ]
+        ]
+    ],
+    [
         "Careem",
         [
             [
@@ -10,6 +407,38 @@
                 79000,
                 12000,
                 6000
+            ]
+        ]
+    ],
+    [
+        "General-Motors",
+        [
+            [
+                "Software Engineer 1",
+                "L5",
+                "(Entry Level)",
+                80000,
+                73000,
+                6000,
+                6900
+            ],
+            [
+                "Software Engineer 2",
+                "L6",
+                null,
+                104000,
+                95000,
+                5400,
+                9700
+            ],
+            [
+                "Software Engineer 3",
+                "L7",
+                null,
+                135000,
+                120000,
+                0,
+                15000
             ]
         ]
     ],
@@ -46,6 +475,857 @@
         ]
     ],
     [
+        "Charles-Schwab",
+        [
+            [
+                "54",
+                "(Entry Level)",
+                null,
+                89000,
+                84000,
+                0,
+                5000
+            ],
+            [
+                "55",
+                null,
+                null,
+                105000,
+                98000,
+                3000,
+                7100
+            ],
+            [
+                "56",
+                null,
+                null,
+                137000,
+                126000,
+                2000,
+                9700
+            ],
+            [
+                "57",
+                null,
+                null,
+                153000,
+                137000,
+                0,
+                17000
+            ],
+            [
+                "58",
+                null,
+                null,
+                156000,
+                139000,
+                8600,
+                15000
+            ]
+        ]
+    ],
+    [
+        "USAA",
+        [
+            [
+                "Software Engineer III",
+                "(Entry Level)",
+                null,
+                77000,
+                69000,
+                0,
+                8600
+            ],
+            [
+                "Software Engineer II",
+                null,
+                null,
+                101000,
+                88000,
+                0,
+                13000
+            ],
+            [
+                "Software Engineer I",
+                null,
+                null,
+                116000,
+                102000,
+                0,
+                14000
+            ],
+            [
+                "Senior Software Engineer",
+                null,
+                null,
+                140000,
+                124000,
+                0,
+                17000
+            ],
+            [
+                "Lead Software Engineer",
+                null,
+                null,
+                174000,
+                146000,
+                0,
+                29000
+            ]
+        ]
+    ],
+    [
+        "Citi",
+        [
+            [
+                "C10",
+                "(Entry Level)",
+                null,
+                96000,
+                93000,
+                10000,
+                1300
+            ],
+            [
+                "C11",
+                null,
+                null,
+                101000,
+                96000,
+                7000,
+                4700
+            ],
+            [
+                "C12",
+                null,
+                null,
+                121000,
+                118000,
+                0,
+                3100
+            ],
+            [
+                "C13",
+                null,
+                null,
+                158000,
+                151000,
+                0,
+                6900
+            ]
+        ]
+    ],
+    [
+        "Siemens",
+        [
+            [
+                "T07",
+                null,
+                null,
+                99000,
+                98000,
+                0,
+                1500
+            ]
+        ]
+    ],
+    [
+        "Shopify",
+        [
+            [
+                "L4",
+                "(Entry Level)",
+                null,
+                90000,
+                71000,
+                17000,
+                2700
+            ],
+            [
+                "L5",
+                "Software Developer",
+                null,
+                112000,
+                84000,
+                27000,
+                1900
+            ],
+            [
+                "L6",
+                "Senior Software Developer",
+                null,
+                144000,
+                103000,
+                40000,
+                1700
+            ],
+            [
+                "L7",
+                "Staff Software Developer",
+                null,
+                218000,
+                132000,
+                84000,
+                3300
+            ]
+        ]
+    ],
+    [
+        "Dell-Technologies",
+        [
+            [
+                "Software Engineer I",
+                "L5",
+                "(Entry Level)",
+                94000,
+                88000,
+                4500,
+                5200
+            ],
+            [
+                "Software Engineer II",
+                "L6",
+                null,
+                110000,
+                103000,
+                9900,
+                5600
+            ],
+            [
+                "Senior Engineer",
+                "L7",
+                null,
+                139000,
+                126000,
+                11000,
+                10000
+            ],
+            [
+                "Principal Engineer",
+                "L8",
+                null,
+                161000,
+                145000,
+                11000,
+                11000
+            ],
+            [
+                "Senior Principal Engineer",
+                "L9",
+                null,
+                200000,
+                166000,
+                18000,
+                24000
+            ],
+            [
+                "Technical Staff",
+                "L10",
+                null,
+                292000,
+                212000,
+                58000,
+                58000
+            ]
+        ]
+    ],
+    [
+        "NASA-JPL",
+        [
+            [
+                "Software Engineer 1",
+                "(Entry Level)",
+                null,
+                93000,
+                92000,
+                0,
+                400
+            ],
+            [
+                "Software Engineer 2",
+                null,
+                null,
+                113000,
+                113000,
+                0,
+                500
+            ],
+            [
+                "Software Engineer 3",
+                null,
+                null,
+                138000,
+                136000,
+                0,
+                2000
+            ]
+        ]
+    ],
+    [
+        "Wise",
+        [
+            [
+                "L2",
+                "(Entry Level)",
+                null,
+                104000,
+                90000,
+                18000,
+                0
+            ],
+            [
+                "L3",
+                null,
+                null,
+                136000,
+                108000,
+                29000,
+                0
+            ]
+        ]
+    ],
+    [
+        "Visa",
+        [
+            [
+                "Associate Software Engineer",
+                "L3",
+                "(Entry Level)",
+                103000,
+                92000,
+                5000,
+                7800
+            ],
+            [
+                "Software Engineer",
+                "L4",
+                null,
+                109000,
+                96000,
+                7100,
+                8100
+            ],
+            [
+                "Senior Software Engineer",
+                "L5",
+                null,
+                135000,
+                116000,
+                10000,
+                12000
+            ],
+            [
+                "Staff Software Engineer",
+                "L6",
+                null,
+                166000,
+                139000,
+                14000,
+                16000
+            ],
+            [
+                "Senior Staff Software Engineer",
+                "L7",
+                null,
+                221000,
+                165000,
+                28000,
+                30000
+            ],
+            [
+                "Lead Software Engineer",
+                "L8",
+                null,
+                236000,
+                170000,
+                31000,
+                36000
+            ]
+        ]
+    ],
+    [
+        "JPMorgan-Chase",
+        [
+            [
+                "Analyst",
+                "502",
+                "(Entry Level)",
+                98000,
+                92000,
+                2600,
+                6800
+            ],
+            [
+                "Associate",
+                "601",
+                null,
+                120000,
+                110000,
+                8100,
+                11000
+            ],
+            [
+                "Senior Associate",
+                "602",
+                null,
+                129000,
+                119000,
+                11000,
+                11000
+            ],
+            [
+                "Vice President",
+                "603",
+                null,
+                185000,
+                154000,
+                9300,
+                29000
+            ],
+            [
+                "Executive Director",
+                "604",
+                null,
+                366000,
+                226000,
+                41000,
+                103000
+            ]
+        ]
+    ],
+    [
+        "Comcast",
+        [
+            [
+                "Engineer 1",
+                "I",
+                "(Entry Level)",
+                95000,
+                89000,
+                4600,
+                4300
+            ],
+            [
+                "Engineer 2",
+                "II",
+                null,
+                104000,
+                97000,
+                3800,
+                4500
+            ],
+            [
+                "Engineer 3",
+                "III",
+                null,
+                137000,
+                117000,
+                11000,
+                10000
+            ],
+            [
+                "Senior Engineer",
+                null,
+                null,
+                165000,
+                137000,
+                19000,
+                11000
+            ],
+            [
+                "Principal Engineer",
+                null,
+                null,
+                206000,
+                161000,
+                28000,
+                17000
+            ],
+            [
+                "Senior Principal Engineer",
+                null,
+                null,
+                270000,
+                183000,
+                53000,
+                37000
+            ]
+        ]
+    ],
+    [
+        "AMD",
+        [
+            [
+                "Software Engineer II",
+                "L5",
+                "(Entry Level)",
+                113000,
+                103000,
+                7300,
+                8300
+            ],
+            [
+                "Senior Software Engineer",
+                "L6",
+                null,
+                147000,
+                127000,
+                9900,
+                11000
+            ],
+            [
+                "MTS",
+                "L7",
+                null,
+                196000,
+                150000,
+                23000,
+                24000
+            ],
+            [
+                "Senior MTS",
+                "L8",
+                null,
+                232000,
+                163000,
+                35000,
+                36000
+            ],
+            [
+                "Principal MTS",
+                "L9",
+                null,
+                424000,
+                238000,
+                142000,
+                45000
+            ]
+        ]
+    ],
+    [
+        "Discover",
+        [
+            [
+                "L4",
+                "(Entry Level)",
+                null,
+                90000,
+                88000,
+                0,
+                3500
+            ],
+            [
+                "L7",
+                null,
+                null,
+                144000,
+                129000,
+                9000,
+                11000
+            ],
+            [
+                "L8",
+                null,
+                null,
+                151000,
+                139000,
+                0,
+                12000
+            ]
+        ]
+    ],
+    [
+        "Capital-One",
+        [
+            [
+                "Associate Software Eng",
+                "(Entry Level)",
+                null,
+                118000,
+                110000,
+                2400,
+                7900
+            ],
+            [
+                "Software Eng",
+                "Senior Associate",
+                null,
+                132000,
+                125000,
+                3900,
+                7100
+            ],
+            [
+                "Senior Software Eng",
+                "Principal Associate",
+                null,
+                154000,
+                143000,
+                3300,
+                10000
+            ],
+            [
+                "Master Software Eng",
+                null,
+                null,
+                187000,
+                168000,
+                9000,
+                16000
+            ],
+            [
+                "Lead Software Eng",
+                null,
+                null,
+                230000,
+                196000,
+                28000,
+                24000
+            ]
+        ]
+    ],
+    [
+        "Walmart",
+        [
+            [
+                "L2",
+                "(Entry Level)",
+                null,
+                114000,
+                91000,
+                7700,
+                15000
+            ],
+            [
+                "L3",
+                null,
+                null,
+                126000,
+                100000,
+                13000,
+                15000
+            ],
+            [
+                "L4",
+                null,
+                null,
+                183000,
+                133000,
+                24000,
+                27000
+            ],
+            [
+                "L5",
+                null,
+                null,
+                237000,
+                154000,
+                52000,
+                31000
+            ]
+        ]
+    ],
+    [
+        "Cisco",
+        [
+            [
+                "Software Engineer 1",
+                "Grade 4",
+                "(Entry Level)",
+                106000,
+                97000,
+                7500,
+                7200
+            ],
+            [
+                "Software Engineer 2",
+                "Grade 6",
+                null,
+                136000,
+                120000,
+                13000,
+                9100
+            ],
+            [
+                "Software Engineer III",
+                "Grade 8",
+                null,
+                165000,
+                134000,
+                18000,
+                16000
+            ],
+            [
+                "Software Engineer IV",
+                "Grade 10",
+                null,
+                204000,
+                151000,
+                30000,
+                27000
+            ],
+            [
+                "Technical Leader 1",
+                "Grade 11",
+                null,
+                241000,
+                166000,
+                49000,
+                29000
+            ],
+            [
+                "Technical Leader 2",
+                "Grade 12",
+                null,
+                329000,
+                192000,
+                86000,
+                56000
+            ],
+            [
+                "Principal Engineer",
+                "Grade 13",
+                null,
+                469000,
+                212000,
+                174000,
+                88000
+            ],
+            [
+                "Distinguished Engineer",
+                null,
+                null,
+                779000,
+                262000,
+                377000,
+                139000
+            ]
+        ]
+    ],
+    [
+        "T-Mobile",
+        [
+            [
+                "Associate Engineer",
+                "T1",
+                "(Entry Level)",
+                104000,
+                93000,
+                3600,
+                8500
+            ],
+            [
+                "Engineer",
+                "T2",
+                null,
+                142000,
+                116000,
+                8500,
+                17000
+            ],
+            [
+                "Senior Engineer",
+                "T3",
+                null,
+                174000,
+                144000,
+                9700,
+                21000
+            ],
+            [
+                "Principal Engineer",
+                "T4",
+                null,
+                210000,
+                161000,
+                14000,
+                34000
+            ]
+        ]
+    ],
+    [
+        "Veritas-Technologies",
+        [
+            [
+                "Software Engineer",
+                "(Entry Level)",
+                null,
+                123000,
+                114000,
+                0,
+                8600
+            ],
+            [
+                "Senior SWE",
+                null,
+                null,
+                156000,
+                142000,
+                9000,
+                8800
+            ]
+        ]
+    ],
+    [
+        "IBM",
+        [
+            [
+                "Associate Engineer",
+                "Band 6",
+                "(Entry Level)",
+                101000,
+                95000,
+                3600,
+                5700
+            ],
+            [
+                "Staff Engineer",
+                "Band 7",
+                null,
+                123000,
+                121000,
+                4700,
+                2000
+            ],
+            [
+                "Advisory Engineer",
+                "Band 8",
+                null,
+                149000,
+                148000,
+                4800,
+                11000
+            ],
+            [
+                "Senior Engineer",
+                "Band 9",
+                null,
+                191000,
+                184000,
+                15000,
+                4200
+            ],
+            [
+                "Senior Technical Staff Member",
+                "STSM",
+                null,
+                262000,
+                234000,
+                30000,
+                12000
+            ],
+            [
+                "Distinguished Engineer",
+                "Band D",
+                null,
+                403000,
+                228000,
+                89000,
+                85000
+            ]
+        ]
+    ],
+    [
         "Coursera",
         [
             [
@@ -56,6 +1336,115 @@
                 88000,
                 23000,
                 14000
+            ]
+        ]
+    ],
+    [
+        "Citrix",
+        [
+            [
+                "Software Engineer I",
+                "(Entry Level)",
+                null,
+                122000,
+                108000,
+                12000,
+                5600
+            ],
+            [
+                "Software Engineer II",
+                null,
+                null,
+                129000,
+                114000,
+                12000,
+                4800
+            ],
+            [
+                "Senior Software Engineer I",
+                null,
+                null,
+                141000,
+                128000,
+                13000,
+                1300
+            ],
+            [
+                "Senior Software Engineer II",
+                null,
+                null,
+                200000,
+                150000,
+                38000,
+                12000
+            ],
+            [
+                "Staff Software Engineer",
+                null,
+                null,
+                225000,
+                175000,
+                36000,
+                17000
+            ],
+            [
+                "Principal Software Engineer",
+                null,
+                null,
+                310000,
+                199000,
+                80000,
+                31000
+            ]
+        ]
+    ],
+    [
+        "Mastercard",
+        [
+            [
+                "L9",
+                "(Entry Level)",
+                null,
+                118000,
+                102000,
+                1500,
+                16000
+            ],
+            [
+                "L8",
+                null,
+                null,
+                138000,
+                125000,
+                4000,
+                12000
+            ],
+            [
+                "L7",
+                null,
+                null,
+                153000,
+                132000,
+                11000,
+                19000
+            ],
+            [
+                "L6",
+                null,
+                null,
+                170000,
+                136000,
+                9000,
+                30000
+            ],
+            [
+                "L5",
+                null,
+                null,
+                235000,
+                179000,
+                18000,
+                47000
             ]
         ]
     ],
@@ -97,6 +1486,70 @@
                 171000,
                 26000,
                 27000
+            ]
+        ]
+    ],
+    [
+        "Monzo",
+        [
+            [
+                "L3",
+                "(Entry Level)",
+                null,
+                129000,
+                108000,
+                25000,
+                2600
+            ],
+            [
+                "L4",
+                null,
+                null,
+                192000,
+                138000,
+                55000,
+                0
+            ]
+        ]
+    ],
+    [
+        "Red-Hat",
+        [
+            [
+                "L2",
+                "(Entry Level)",
+                null,
+                113000,
+                102000,
+                4500,
+                10000
+            ],
+            [
+                "L3",
+                null,
+                null,
+                147000,
+                123000,
+                12000,
+                19000
+            ],
+            [
+                "L4",
+                null,
+                null,
+                159000,
+                134000,
+                18000,
+                19000
+            ],
+            [
+                "L5",
+                null,
+                null,
+                207000,
+                168000,
+                20000,
+                23000
             ]
         ]
     ],
@@ -170,6 +1623,56 @@
                 164000,
                 62000,
                 22000
+            ]
+        ]
+    ],
+    [
+        "Disney",
+        [
+            [
+                "Associate Software Engineer",
+                "(Entry Level)",
+                null,
+                115000,
+                99000,
+                9900,
+                7100
+            ],
+            [
+                "Software Engineer",
+                null,
+                null,
+                156000,
+                127000,
+                25000,
+                9900
+            ],
+            [
+                "Senior Software Engineer",
+                null,
+                null,
+                199000,
+                158000,
+                34000,
+                13000
+            ],
+            [
+                "Staff Software Engineer",
+                null,
+                null,
+                263000,
+                176000,
+                64000,
+                36000
+            ],
+            [
+                "Principal Engineer",
+                null,
+                null,
+                434000,
+                235000,
+                138000,
+                60000
             ]
         ]
     ],
@@ -265,6 +1768,56 @@
         ]
     ],
     [
+        "Walmart-Global-Tech",
+        [
+            [
+                "Software Engineer 2",
+                "(Entry Level)",
+                null,
+                114000,
+                92000,
+                7500,
+                16000
+            ],
+            [
+                "Software Engineer 3",
+                "E3",
+                null,
+                166000,
+                132000,
+                15000,
+                21000
+            ],
+            [
+                "Senior Software Engineer",
+                "E4",
+                null,
+                218000,
+                158000,
+                30000,
+                31000
+            ],
+            [
+                "Staff Software Engineer",
+                "E5",
+                null,
+                287000,
+                183000,
+                65000,
+                38000
+            ],
+            [
+                "Principal Software Engineer",
+                "E6",
+                null,
+                359000,
+                211000,
+                88000,
+                60000
+            ]
+        ]
+    ],
+    [
         "PayPal",
         [
             [
@@ -352,6 +1905,197 @@
                 152000,
                 13000,
                 18000
+            ]
+        ]
+    ],
+    [
+        "Tesla",
+        [
+            [
+                "P1",
+                "Associate Engineer",
+                "(Entry Level)",
+                125000,
+                111000,
+                13000,
+                250
+            ],
+            [
+                "P2",
+                "Engineer",
+                null,
+                162000,
+                130000,
+                32000,
+                1900
+            ],
+            [
+                "P3",
+                "Senior Engineer",
+                null,
+                201000,
+                147000,
+                59000,
+                4300
+            ],
+            [
+                "P4",
+                "Staff Engineer",
+                null,
+                316000,
+                171000,
+                128000,
+                17000
+            ],
+            [
+                "P5",
+                "Sr. Staff Engineer",
+                null,
+                441000,
+                217000,
+                299000,
+                0
+            ]
+        ]
+    ],
+    [
+        "Expedia",
+        [
+            [
+                "J",
+                "Associate SDE",
+                "(Entry Level)",
+                141000,
+                123000,
+                10000,
+                8900
+            ],
+            [
+                "K",
+                "SDE I",
+                null,
+                138000,
+                116000,
+                11000,
+                14000
+            ],
+            [
+                "L",
+                "SDE II",
+                null,
+                160000,
+                137000,
+                14000,
+                12000
+            ],
+            [
+                "M",
+                "Senior SDE",
+                null,
+                216000,
+                168000,
+                34000,
+                18000
+            ],
+            [
+                "N",
+                "Principal SDE",
+                null,
+                277000,
+                197000,
+                48000,
+                35000
+            ]
+        ]
+    ],
+    [
+        "Epic-Systems",
+        [
+            [
+                "Software Developer",
+                "(Entry Level)",
+                null,
+                128000,
+                115000,
+                10000,
+                8100
+            ],
+            [
+                "Software Developer II",
+                null,
+                null,
+                166000,
+                150000,
+                12000,
+                12000
+            ],
+            [
+                "Senior Software Systems Developer",
+                null,
+                null,
+                193000,
+                169000,
+                18000,
+                13000
+            ],
+            [
+                "Software Systems Architect",
+                null,
+                null,
+                226000,
+                204000,
+                13000,
+                9300
+            ]
+        ]
+    ],
+    [
+        "NetApp",
+        [
+            [
+                "MTS I",
+                "(Entry Level)",
+                null,
+                123000,
+                106000,
+                9800,
+                8500
+            ],
+            [
+                "MTS II",
+                null,
+                null,
+                139000,
+                120000,
+                11000,
+                11000
+            ],
+            [
+                "MTS III",
+                null,
+                null,
+                156000,
+                134000,
+                9900,
+                11000
+            ],
+            [
+                "MTS IV",
+                null,
+                null,
+                182000,
+                159000,
+                13000,
+                14000
+            ],
+            [
+                "MTS V",
+                "Senior Engineer",
+                null,
+                237000,
+                184000,
+                31000,
+                22000
             ]
         ]
     ],
@@ -556,6 +2300,65 @@
         ]
     ],
     [
+        "Yahoo",
+        [
+            [
+                "Associate Software Engineer",
+                "IC1",
+                "(Entry Level)",
+                129000,
+                114000,
+                10000,
+                8500
+            ],
+            [
+                "Interim Software Engineer",
+                "IC2",
+                null,
+                156000,
+                130000,
+                15000,
+                14000
+            ],
+            [
+                "Software Engineer",
+                "IC3",
+                null,
+                183000,
+                142000,
+                25000,
+                19000
+            ],
+            [
+                "Senior Software Engineer",
+                "IC4",
+                null,
+                228000,
+                173000,
+                34000,
+                25000
+            ],
+            [
+                "Principal Software Engineer",
+                "IC5",
+                null,
+                271000,
+                188000,
+                53000,
+                29000
+            ],
+            [
+                "Senior Principal SE",
+                "IC6",
+                null,
+                446000,
+                240000,
+                144000,
+                61000
+            ]
+        ]
+    ],
+    [
         "Alibaba",
         [
             [
@@ -616,6 +2419,215 @@
                 210000,
                 105000,
                 57000
+            ]
+        ]
+    ],
+    [
+        "Intel",
+        [
+            [
+                "Grade 5",
+                "(Entry Level)",
+                null,
+                120000,
+                101000,
+                11000,
+                9800
+            ],
+            [
+                "Grade 6",
+                null,
+                null,
+                137000,
+                115000,
+                12000,
+                12000
+            ],
+            [
+                "Grade 7",
+                null,
+                null,
+                172000,
+                136000,
+                19000,
+                18000
+            ],
+            [
+                "Grade 8",
+                "Staff Engineer",
+                null,
+                215000,
+                159000,
+                30000,
+                27000
+            ],
+            [
+                "Grade 9",
+                "Senior Staff Eng",
+                null,
+                279000,
+                188000,
+                48000,
+                42000
+            ],
+            [
+                "Grade 10",
+                "Principal Eng",
+                null,
+                391000,
+                230000,
+                87000,
+                77000
+            ],
+            [
+                "Grade 11",
+                "Senior Principal Eng",
+                null,
+                485000,
+                270000,
+                134000,
+                118000
+            ]
+        ]
+    ],
+    [
+        "Zoox",
+        [
+            [
+                "L1",
+                "(Entry Level)",
+                null,
+                150000,
+                136000,
+                18000,
+                0
+            ],
+            [
+                "L2",
+                null,
+                null,
+                173000,
+                148000,
+                31000,
+                0
+            ],
+            [
+                "L3",
+                null,
+                null,
+                198000,
+                170000,
+                24000,
+                3000
+            ],
+            [
+                "L4",
+                null,
+                null,
+                244000,
+                197000,
+                39000,
+                9100
+            ],
+            [
+                "L5",
+                null,
+                null,
+                380000,
+                233000,
+                128000,
+                20000
+            ]
+        ]
+    ],
+    [
+        "Etsy",
+        [
+            [
+                "IC1",
+                "Software Engineer I",
+                "(Entry Level)",
+                148000,
+                113000,
+                26000,
+                8800
+            ],
+            [
+                "IC2",
+                "Software Engineer II",
+                null,
+                177000,
+                134000,
+                31000,
+                13000
+            ],
+            [
+                "IC3-1",
+                "Senior Software Engineer I",
+                null,
+                227000,
+                153000,
+                69000,
+                16000
+            ],
+            [
+                "IC3-2",
+                "Senior Software Engineer II",
+                null,
+                247000,
+                172000,
+                58000,
+                18000
+            ],
+            [
+                "IC4-1",
+                "Staff Software Engineer I",
+                null,
+                373000,
+                195000,
+                155000,
+                26000
+            ]
+        ]
+    ],
+    [
+        "Yelp",
+        [
+            [
+                "IC1",
+                "New Grad",
+                "(Entry Level)",
+                149000,
+                108000,
+                28000,
+                9800
+            ],
+            [
+                "IC2",
+                null,
+                null,
+                178000,
+                129000,
+                45000,
+                4700
+            ],
+            [
+                "IC3",
+                null,
+                null,
+                231000,
+                147000,
+                81000,
+                5800
+            ],
+            [
+                "IC4",
+                null,
+                null,
+                307000,
+                175000,
+                130000,
+                2000
             ]
         ]
     ],
@@ -688,6 +2700,79 @@
         ]
     ],
     [
+        "Zoom",
+        [
+            [
+                "ZP1",
+                "(Entry Level)",
+                null,
+                148000,
+                111000,
+                30000,
+                9700
+            ],
+            [
+                "ZP2",
+                null,
+                null,
+                182000,
+                136000,
+                37000,
+                9500
+            ],
+            [
+                "ZP3",
+                null,
+                null,
+                236000,
+                167000,
+                55000,
+                14000
+            ],
+            [
+                "ZP4",
+                null,
+                null,
+                321000,
+                214000,
+                85000,
+                22000
+            ]
+        ]
+    ],
+    [
+        "Redfin",
+        [
+            [
+                "SDE I",
+                "Software Developer 1",
+                "(Entry Level)",
+                148000,
+                121000,
+                23000,
+                4900
+            ],
+            [
+                "SDE II",
+                "Software Developer 2",
+                null,
+                185000,
+                146000,
+                32000,
+                7400
+            ],
+            [
+                "Senior SDE",
+                "Senior Software Developer",
+                null,
+                257000,
+                173000,
+                61000,
+                24000
+            ]
+        ]
+    ],
+    [
         "Adobe",
         [
             [
@@ -743,6 +2828,179 @@
                 217000,
                 114000,
                 36000
+            ]
+        ]
+    ],
+    [
+        "Workday",
+        [
+            [
+                "P1",
+                "Software Engineer (SWE) I",
+                "(Entry Level)",
+                138000,
+                111000,
+                18000,
+                9100
+            ],
+            [
+                "P2",
+                "SWE II",
+                null,
+                162000,
+                121000,
+                35000,
+                8000
+            ],
+            [
+                "P3",
+                "SWE III",
+                null,
+                202000,
+                143000,
+                51000,
+                10000
+            ],
+            [
+                "P4",
+                "Senior SWE",
+                null,
+                254000,
+                168000,
+                80000,
+                11000
+            ],
+            [
+                "P5",
+                "Principal SWE",
+                null,
+                348000,
+                204000,
+                139000,
+                7800
+            ],
+            [
+                "P6",
+                "Senior Principal SWE",
+                null,
+                623000,
+                232000,
+                380000,
+                19000
+            ]
+        ]
+    ],
+    [
+        "Mozilla",
+        [
+            [
+                "P2",
+                "Software Engineer 2",
+                "(Entry Level)",
+                169000,
+                143000,
+                0,
+                26000
+            ],
+            [
+                "P3",
+                "Senior Software Engineer",
+                null,
+                197000,
+                165000,
+                0,
+                32000
+            ],
+            [
+                "P4",
+                "Staff Software Engineer",
+                null,
+                230000,
+                181000,
+                0,
+                54000
+            ]
+        ]
+    ],
+    [
+        "Squarespace",
+        [
+            [
+                "L2",
+                "Software Engineer 2",
+                "(Entry Level)",
+                156000,
+                132000,
+                13000,
+                11000
+            ],
+            [
+                "Software Engineer 3",
+                "E3",
+                null,
+                183000,
+                154000,
+                29000,
+                3200
+            ],
+            [
+                "L3",
+                "Senior Engineer",
+                null,
+                193000,
+                235000,
+                29000,
+                1700
+            ],
+            [
+                "L4",
+                "Senior Engineer 2",
+                null,
+                243000,
+                198000,
+                49000,
+                2500
+            ]
+        ]
+    ],
+    [
+        "Convoy",
+        [
+            [
+                "T3",
+                "(Entry Level)",
+                null,
+                141000,
+                118000,
+                21000,
+                4600
+            ],
+            [
+                "T4",
+                null,
+                null,
+                205000,
+                152000,
+                51000,
+                3300
+            ],
+            [
+                "T5",
+                null,
+                null,
+                253000,
+                173000,
+                99000,
+                500
+            ],
+            [
+                "T6",
+                null,
+                null,
+                364000,
+                190000,
+                196000,
+                0
             ]
         ]
     ],
@@ -842,6 +3100,65 @@
         ]
     ],
     [
+        "Nvidia",
+        [
+            [
+                "IC1",
+                "(Entry Level)",
+                null,
+                167000,
+                133000,
+                23000,
+                12000
+            ],
+            [
+                "IC2",
+                null,
+                null,
+                180000,
+                144000,
+                28000,
+                9200
+            ],
+            [
+                "IC3",
+                null,
+                null,
+                219000,
+                165000,
+                50000,
+                5400
+            ],
+            [
+                "IC4",
+                null,
+                null,
+                266000,
+                195000,
+                71000,
+                5900
+            ],
+            [
+                "IC5",
+                null,
+                null,
+                380000,
+                235000,
+                139000,
+                7000
+            ],
+            [
+                "IC6",
+                "Principal Engineer",
+                null,
+                488000,
+                286000,
+                191000,
+                11000
+            ]
+        ]
+    ],
+    [
         "Indeed",
         [
             [
@@ -888,6 +3205,207 @@
                 242000,
                 203000,
                 31000
+            ]
+        ]
+    ],
+    [
+        "DocuSign",
+        [
+            [
+                "P1",
+                "Software Engineer",
+                "(Entry Level)",
+                144000,
+                109000,
+                28000,
+                6600
+            ],
+            [
+                "P2",
+                null,
+                null,
+                170000,
+                120000,
+                44000,
+                7100
+            ],
+            [
+                "P3",
+                null,
+                null,
+                212000,
+                145000,
+                60000,
+                7900
+            ],
+            [
+                "P4",
+                "Senior Software Engineer",
+                null,
+                253000,
+                171000,
+                72000,
+                15000
+            ],
+            [
+                "P5",
+                "Lead Software Engineer",
+                null,
+                375000,
+                204000,
+                141000,
+                30000
+            ]
+        ]
+    ],
+    [
+        "Sony",
+        [
+            [
+                "L3",
+                "(Entry Level)",
+                null,
+                176000,
+                152000,
+                0,
+                24000
+            ],
+            [
+                "L4",
+                null,
+                null,
+                248000,
+                182000,
+                0,
+                66000
+            ]
+        ]
+    ],
+    [
+        "Twilio",
+        [
+            [
+                "IC1",
+                "Software Engineer 1",
+                "(Entry Level)",
+                148000,
+                120000,
+                25000,
+                6100
+            ],
+            [
+                "IC2",
+                "Software Engineer 2",
+                null,
+                205000,
+                145000,
+                60000,
+                556
+            ],
+            [
+                "IC3",
+                "Software Engineer 3",
+                null,
+                237000,
+                162000,
+                75000,
+                1000
+            ],
+            [
+                "IC4",
+                "Staff Software Engineer",
+                null,
+                305000,
+                189000,
+                116000,
+                95
+            ],
+            [
+                "IC5",
+                "Principal Engineer",
+                null,
+                406000,
+                214000,
+                191000,
+                1400
+            ]
+        ]
+    ],
+    [
+        "Bloomberg",
+        [
+            [
+                "Software Engineer",
+                "(Entry Level)",
+                null,
+                177000,
+                154000,
+                0,
+                24000
+            ],
+            [
+                "Senior Software Engineer",
+                null,
+                null,
+                243000,
+                201000,
+                0,
+                42000
+            ]
+        ]
+    ],
+    [
+        "Ticketmaster",
+        [
+            [
+                "Lead Engineer",
+                null,
+                null,
+                177000,
+                170000,
+                0,
+                7800
+            ]
+        ]
+    ],
+    [
+        "Qualtrics",
+        [
+            [
+                "L3",
+                "Software Engineer I",
+                "(Entry Level)",
+                136000,
+                112000,
+                21000,
+                9800
+            ],
+            [
+                "L4",
+                "Software Engineer II",
+                null,
+                219000,
+                148000,
+                62000,
+                12000
+            ],
+            [
+                "L5",
+                "Software Engineer III",
+                null,
+                336000,
+                175000,
+                128000,
+                31000
+            ],
+            [
+                "L6",
+                "Software Engineer IV",
+                null,
+                402000,
+                196000,
+                169000,
+                37000
             ]
         ]
     ],
@@ -947,6 +3465,47 @@
                 243000,
                 239000,
                 66000
+            ]
+        ]
+    ],
+    [
+        "Spotify",
+        [
+            [
+                "Engineer I",
+                "(Entry Level)",
+                null,
+                156000,
+                132000,
+                22000,
+                2800
+            ],
+            [
+                "Engineer II",
+                null,
+                null,
+                201000,
+                172000,
+                28000,
+                514
+            ],
+            [
+                "Senior Engineer",
+                null,
+                null,
+                238000,
+                197000,
+                44000,
+                1300
+            ],
+            [
+                "Staff Engineer",
+                null,
+                null,
+                309000,
+                236000,
+                75000,
+                5300
             ]
         ]
     ],
@@ -1038,6 +3597,88 @@
         ]
     ],
     [
+        "Nutanix",
+        [
+            [
+                "MTS2",
+                "Member of Technical Staff 2",
+                "(Entry Level)",
+                152000,
+                130000,
+                18000,
+                4800
+            ],
+            [
+                "MTS3",
+                "Member of Technical Staff 3",
+                null,
+                173000,
+                148000,
+                25000,
+                0
+            ],
+            [
+                "MTS4",
+                "Member of Technical Staff 4",
+                null,
+                219000,
+                171000,
+                49000,
+                800
+            ],
+            [
+                "Senior MTS",
+                null,
+                null,
+                244000,
+                188000,
+                55000,
+                909
+            ],
+            [
+                "Staff Engineer",
+                null,
+                null,
+                353000,
+                232000,
+                119000,
+                2500
+            ],
+            [
+                "Senior Staff Engineer",
+                null,
+                null,
+                439000,
+                285000,
+                150000,
+                3800
+            ]
+        ]
+    ],
+    [
+        "Rivian",
+        [
+            [
+                "RIV-4",
+                "(Entry Level)",
+                null,
+                182000,
+                149000,
+                31000,
+                7400
+            ],
+            [
+                "RIV-6",
+                null,
+                null,
+                284000,
+                189000,
+                89000,
+                7500
+            ]
+        ]
+    ],
+    [
         "Salesforce",
         [
             [
@@ -1106,6 +3747,38 @@
         ]
     ],
     [
+        "SpaceX",
+        [
+            [
+                "L1",
+                "Software Engineer",
+                "(Entry Level)",
+                162000,
+                111000,
+                49000,
+                1700
+            ],
+            [
+                "L2",
+                "Software Engineer II",
+                null,
+                202000,
+                135000,
+                67000,
+                1000
+            ],
+            [
+                "L3",
+                "Senior Software Engineer",
+                null,
+                322000,
+                165000,
+                156000,
+                714
+            ]
+        ]
+    ],
+    [
         "Axon",
         [
             [
@@ -1125,6 +3798,65 @@
                 154000,
                 45000,
                 16000
+            ]
+        ]
+    ],
+    [
+        "Oracle",
+        [
+            [
+                "IC-1",
+                "(Entry Level)",
+                null,
+                183000,
+                120000,
+                47000,
+                18000
+            ],
+            [
+                "IC-2",
+                "Member of Technical Staff",
+                null,
+                186000,
+                133000,
+                46000,
+                10000
+            ],
+            [
+                "IC-3",
+                "Senior MTS",
+                null,
+                215000,
+                148000,
+                69000,
+                6700
+            ],
+            [
+                "IC-4",
+                "Principal MTS",
+                null,
+                261000,
+                166000,
+                108000,
+                0
+            ],
+            [
+                "IC-5",
+                "Consulting MTS",
+                null,
+                328000,
+                194000,
+                135000,
+                3800
+            ],
+            [
+                "IC-6",
+                "Architect",
+                null,
+                617000,
+                259000,
+                345000,
+                24000
             ]
         ]
     ],
@@ -1170,6 +3902,47 @@
         ]
     ],
     [
+        "WeWork",
+        [
+            [
+                "L3",
+                "SWE II",
+                "(Entry Level)",
+                163000,
+                146000,
+                56000,
+                7600
+            ],
+            [
+                "L4",
+                "Lead SWE",
+                null,
+                208000,
+                181000,
+                33000,
+                13000
+            ],
+            [
+                "L5",
+                "Senior SWE",
+                null,
+                260000,
+                204000,
+                55000,
+                19000
+            ],
+            [
+                "L6",
+                "Staff SWE",
+                null,
+                426000,
+                265000,
+                157000,
+                17000
+            ]
+        ]
+    ],
+    [
         "Wayfair",
         [
             [
@@ -1207,6 +3980,79 @@
                 184000,
                 186000,
                 27000
+            ]
+        ]
+    ],
+    [
+        "MongoDB",
+        [
+            [
+                "Associate Software Engineer",
+                "SE2",
+                "(Entry Level)",
+                152000,
+                123000,
+                16000,
+                15000
+            ],
+            [
+                "Software Engineer",
+                "SE3",
+                null,
+                227000,
+                160000,
+                65000,
+                1700
+            ],
+            [
+                "Senior Software Engineer",
+                null,
+                null,
+                318000,
+                192000,
+                121000,
+                4200
+            ]
+        ]
+    ],
+    [
+        "Reddit",
+        [
+            [
+                "IC1",
+                "Software Engineer I",
+                "(Entry Level)",
+                131000,
+                124000,
+                16000,
+                3300
+            ],
+            [
+                "IC3",
+                "Software Engineer III",
+                null,
+                248000,
+                187000,
+                58000,
+                3300
+            ],
+            [
+                "IC4",
+                "Senior Software Engineer",
+                null,
+                257000,
+                208000,
+                58000,
+                238
+            ],
+            [
+                "IC5",
+                "Staff Engineer",
+                null,
+                366000,
+                235000,
+                131000,
+                0
             ]
         ]
     ],
@@ -1261,6 +4107,56 @@
         ]
     ],
     [
+        "Square",
+        [
+            [
+                "Level 3",
+                "(Entry Level)",
+                null,
+                160000,
+                117000,
+                37000,
+                8400
+            ],
+            [
+                "Level 4",
+                null,
+                null,
+                222000,
+                147000,
+                71000,
+                3400
+            ],
+            [
+                "Level 5",
+                null,
+                null,
+                297000,
+                171000,
+                120000,
+                7000
+            ],
+            [
+                "Level 6",
+                null,
+                null,
+                392000,
+                201000,
+                187000,
+                5100
+            ],
+            [
+                "Level 7",
+                null,
+                null,
+                652000,
+                248000,
+                396000,
+                7700
+            ]
+        ]
+    ],
+    [
         "Zillow",
         [
             [
@@ -1298,6 +4194,47 @@
                 213000,
                 106000,
                 20000
+            ]
+        ]
+    ],
+    [
+        "Unity-Technologies",
+        [
+            [
+                "Tech IC4",
+                "Software Engineer",
+                "(Entry Level)",
+                196000,
+                139000,
+                51000,
+                6700
+            ],
+            [
+                "Tech IC5",
+                null,
+                null,
+                188000,
+                131000,
+                53000,
+                6300
+            ],
+            [
+                "Tech IC6",
+                "Senior Software Engineer",
+                null,
+                265000,
+                161000,
+                112000,
+                182
+            ],
+            [
+                "Tech IC7",
+                null,
+                null,
+                331000,
+                190000,
+                132000,
+                9500
             ]
         ]
     ],
@@ -1357,6 +4294,20 @@
         ]
     ],
     [
+        "SmartThings",
+        [
+            [
+                "Staff Software Engineer",
+                null,
+                null,
+                194000,
+                158000,
+                0,
+                35000
+            ]
+        ]
+    ],
+    [
         "Snowflake",
         [
             [
@@ -1385,6 +4336,188 @@
                 231000,
                 196000,
                 35000
+            ]
+        ]
+    ],
+    [
+        "Nextdoor",
+        [
+            [
+                "L1",
+                "(Entry Level)",
+                null,
+                165000,
+                131000,
+                32000,
+                7600
+            ],
+            [
+                "L3",
+                null,
+                null,
+                232000,
+                164000,
+                63000,
+                8100
+            ],
+            [
+                "L4",
+                null,
+                null,
+                339000,
+                199000,
+                139000,
+                1500
+            ]
+        ]
+    ],
+    [
+        "eBay",
+        [
+            [
+                "SE 1",
+                "Software Engineer 1",
+                "(Entry Level)",
+                127000,
+                107000,
+                6500,
+                14000
+            ],
+            [
+                "SE 2",
+                null,
+                null,
+                159000,
+                127000,
+                14000,
+                17000
+            ],
+            [
+                "SE 3",
+                null,
+                null,
+                192000,
+                148000,
+                31000,
+                16000
+            ],
+            [
+                "MTS 1",
+                "Member of Technical Staff 1",
+                null,
+                227000,
+                170000,
+                41000,
+                17000
+            ],
+            [
+                "MTS 2",
+                null,
+                null,
+                292000,
+                197000,
+                68000,
+                29000
+            ],
+            [
+                "Senior MTS",
+                null,
+                null,
+                366000,
+                213000,
+                113000,
+                46000
+            ],
+            [
+                "Principal MTS",
+                null,
+                null,
+                394000,
+                223000,
+                114000,
+                58000
+            ]
+        ]
+    ],
+    [
+        "Amazon",
+        [
+            [
+                "SDE I",
+                "L4",
+                "(Entry Level)",
+                166000,
+                126000,
+                22000,
+                20000
+            ],
+            [
+                "SDE II",
+                "L5",
+                null,
+                233000,
+                154000,
+                65000,
+                20000
+            ],
+            [
+                "SDE III",
+                "Senior SDE",
+                null,
+                338000,
+                170000,
+                157000,
+                19000
+            ],
+            [
+                "Principal SDE",
+                "L7",
+                null,
+                597000,
+                183000,
+                389000,
+                39000
+            ],
+            [
+                "Senior Principal SDE",
+                "L8",
+                null,
+                859000,
+                218000,
+                641000,
+                0
+            ]
+        ]
+    ],
+    [
+        "Carta",
+        [
+            [
+                "L3",
+                "Sofware Engineer II",
+                "(Entry Level)",
+                200000,
+                159000,
+                41000,
+                0
+            ],
+            [
+                "L4",
+                "Senior Software Engineer I",
+                null,
+                250000,
+                184000,
+                66000,
+                0
+            ],
+            [
+                "L5",
+                "Senior Software Engineer II",
+                null,
+                323000,
+                212000,
+                111000,
+                0
             ]
         ]
     ],
@@ -1521,6 +4654,97 @@
         ]
     ],
     [
+        "Coinbase",
+        [
+            [
+                "IC3",
+                "Software Engineer",
+                "(Entry Level)",
+                190000,
+                135000,
+                47000,
+                8600
+            ],
+            [
+                "IC4",
+                null,
+                null,
+                230000,
+                155000,
+                66000,
+                9100
+            ],
+            [
+                "IC5",
+                "Senior Software Engineer",
+                null,
+                370000,
+                194000,
+                156000,
+                20000
+            ],
+            [
+                "IC6",
+                "Staff Software Engineer",
+                null,
+                614000,
+                225000,
+                357000,
+                33000
+            ],
+            [
+                "IC7",
+                "Senior Staff Software Engineer",
+                null,
+                790000,
+                265000,
+                502000,
+                32000
+            ]
+        ]
+    ],
+    [
+        "Affirm",
+        [
+            [
+                "L4",
+                "Software Engineer 1",
+                "(Entry Level)",
+                185000,
+                135000,
+                46000,
+                7700
+            ],
+            [
+                "L5",
+                "Software Engineer 2",
+                null,
+                238000,
+                157000,
+                79000,
+                7700
+            ],
+            [
+                "L6",
+                "Senior Software Engineer",
+                null,
+                300000,
+                185000,
+                113000,
+                3300
+            ],
+            [
+                "L7",
+                "Staff Software Engineer",
+                null,
+                393000,
+                216000,
+                171000,
+                6000
+            ]
+        ]
+    ],
+    [
         "Cruise",
         [
             [
@@ -1631,6 +4855,56 @@
                 194000,
                 71000,
                 31000
+            ]
+        ]
+    ],
+    [
+        "Dropbox",
+        [
+            [
+                "IC1",
+                "Software Engineer (SWE)",
+                "(Entry Level)",
+                176000,
+                127000,
+                38000,
+                9600
+            ],
+            [
+                "IC2",
+                null,
+                null,
+                253000,
+                166000,
+                72000,
+                19000
+            ],
+            [
+                "IC3",
+                null,
+                null,
+                359000,
+                198000,
+                130000,
+                31000
+            ],
+            [
+                "IC4",
+                null,
+                null,
+                448000,
+                216000,
+                193000,
+                41000
+            ],
+            [
+                "IC5",
+                "Staff SWE",
+                null,
+                621000,
+                245000,
+                316000,
+                63000
             ]
         ]
     ],
@@ -1813,6 +5087,38 @@
         ]
     ],
     [
+        "Compass",
+        [
+            [
+                "IC2",
+                "(Entry Level)",
+                null,
+                191000,
+                147000,
+                36000,
+                9200
+            ],
+            [
+                "IC3",
+                null,
+                null,
+                248000,
+                167000,
+                56000,
+                25000
+            ],
+            [
+                "IC4",
+                null,
+                null,
+                313000,
+                203000,
+                97000,
+                16000
+            ]
+        ]
+    ],
+    [
         "Twitter",
         [
             [
@@ -1863,6 +5169,120 @@
         ]
     ],
     [
+        "Facebook",
+        [
+            [
+                "E3",
+                "(Entry Level)",
+                null,
+                184000,
+                122000,
+                42000,
+                21000
+            ],
+            [
+                "E4",
+                null,
+                null,
+                266000,
+                163000,
+                83000,
+                23000
+            ],
+            [
+                "E5",
+                null,
+                null,
+                386000,
+                197000,
+                156000,
+                35000
+            ],
+            [
+                "E6",
+                null,
+                null,
+                575000,
+                230000,
+                298000,
+                51000
+            ],
+            [
+                "E7",
+                null,
+                null,
+                922000,
+                271000,
+                582000,
+                77000
+            ],
+            [
+                "E8",
+                null,
+                null,
+                1600000,
+                310000,
+                1300000,
+                82000
+            ]
+        ]
+    ],
+    [
+        "Box",
+        [
+            [
+                "Software Engineer",
+                "(Entry Level)",
+                null,
+                226000,
+                170000,
+                54000,
+                4700
+            ],
+            [
+                "Senior Software Engineer",
+                null,
+                null,
+                310000,
+                203000,
+                107000,
+                0
+            ],
+            [
+                "Staff Software Engineer",
+                null,
+                null,
+                394000,
+                237000,
+                150000,
+                7700
+            ]
+        ]
+    ],
+    [
+        "Netflix",
+        [
+            [
+                "New Grad Software Engineer",
+                "(Entry Level)",
+                null,
+                226000,
+                206000,
+                19000,
+                20000
+            ],
+            [
+                "Senior Software Engineer",
+                null,
+                null,
+                497000,
+                491000,
+                24000,
+                353
+            ]
+        ]
+    ],
+    [
         "Tableau-Software",
         [
             [
@@ -1891,6 +5311,61 @@
                 206000,
                 150000,
                 26000
+            ]
+        ]
+    ],
+    [
+        "Opendoor",
+        [
+            [
+                "L3",
+                "Software Engineer 2",
+                "(Entry Level)",
+                229000,
+                151000,
+                84000,
+                1500
+            ],
+            [
+                "L4",
+                "Senior Software Engineer",
+                null,
+                384000,
+                206000,
+                177000,
+                1600
+            ]
+        ]
+    ],
+    [
+        "Plaid",
+        [
+            [
+                "E3",
+                "(Entry Level)",
+                null,
+                196000,
+                129000,
+                70000,
+                7000
+            ],
+            [
+                "E4",
+                null,
+                null,
+                262000,
+                160000,
+                122000,
+                550
+            ],
+            [
+                "E5",
+                null,
+                null,
+                388000,
+                191000,
+                192000,
+                6300
             ]
         ]
     ],
@@ -1954,6 +5429,38 @@
         ]
     ],
     [
+        "Asana",
+        [
+            [
+                "L3",
+                "(Entry Level)",
+                null,
+                205000,
+                143000,
+                52000,
+                11000
+            ],
+            [
+                "L4",
+                null,
+                null,
+                255000,
+                167000,
+                91000,
+                4900
+            ],
+            [
+                "L5",
+                null,
+                null,
+                366000,
+                198000,
+                161000,
+                7500
+            ]
+        ]
+    ],
+    [
         "Twitch",
         [
             [
@@ -1982,6 +5489,47 @@
                 176000,
                 144000,
                 40000
+            ]
+        ]
+    ],
+    [
+        "DoorDash",
+        [
+            [
+                "E3",
+                "(Entry Level)",
+                null,
+                192000,
+                134000,
+                45000,
+                15000
+            ],
+            [
+                "E4",
+                null,
+                null,
+                283000,
+                172000,
+                100000,
+                12000
+            ],
+            [
+                "E5",
+                null,
+                null,
+                366000,
+                203000,
+                157000,
+                7100
+            ],
+            [
+                "E6",
+                null,
+                null,
+                538000,
+                232000,
+                301000,
+                7500
             ]
         ]
     ],
@@ -2023,6 +5571,29 @@
                 248000,
                 278000,
                 35000
+            ]
+        ]
+    ],
+    [
+        "Blend",
+        [
+            [
+                "IC3",
+                "(Entry Level)",
+                null,
+                240000,
+                174000,
+                71000,
+                0
+            ],
+            [
+                "IC4",
+                null,
+                null,
+                324000,
+                216000,
+                122000,
+                1300
             ]
         ]
     ],
@@ -2128,6 +5699,106 @@
         ]
     ],
     [
+        "Two-Sigma",
+        [
+            [
+                "L1",
+                "(Entry Level)",
+                null,
+                237000,
+                159000,
+                0,
+                80000
+            ],
+            [
+                "L2",
+                null,
+                null,
+                254000,
+                170000,
+                9500,
+                85000
+            ],
+            [
+                "L3",
+                null,
+                null,
+                300000,
+                183000,
+                1000,
+                117000
+            ],
+            [
+                "L4",
+                null,
+                null,
+                424000,
+                221000,
+                65000,
+                204000
+            ]
+        ]
+    ],
+    [
+        "Roblox",
+        [
+            [
+                "IC1",
+                "Software Engineer",
+                "(Entry Level)",
+                229000,
+                144000,
+                60000,
+                24000
+            ],
+            [
+                "IC2",
+                null,
+                null,
+                264000,
+                163000,
+                130000,
+                0
+            ],
+            [
+                "IC3",
+                "Senior Software Engineer",
+                null,
+                329000,
+                203000,
+                139000,
+                8200
+            ],
+            [
+                "IC4",
+                null,
+                null,
+                386000,
+                251000,
+                147000,
+                8300
+            ],
+            [
+                "IC5",
+                "Principal Software Engineer",
+                null,
+                520000,
+                288000,
+                247000,
+                625
+            ],
+            [
+                "TD1",
+                "Technical Director",
+                null,
+                1200000,
+                390000,
+                825000,
+                0
+            ]
+        ]
+    ],
+    [
         "ByteDance",
         [
             [
@@ -2169,6 +5840,47 @@
         ]
     ],
     [
+        "Pinterest",
+        [
+            [
+                "L3",
+                "(Entry Level)",
+                null,
+                210000,
+                149000,
+                38000,
+                25000
+            ],
+            [
+                "L4",
+                null,
+                null,
+                299000,
+                164000,
+                129000,
+                10000
+            ],
+            [
+                "L5",
+                null,
+                null,
+                459000,
+                203000,
+                255000,
+                8100
+            ],
+            [
+                "L6",
+                null,
+                null,
+                669000,
+                230000,
+                428000,
+                17000
+            ]
+        ]
+    ],
+    [
         "Robinhood",
         [
             [
@@ -2206,6 +5918,38 @@
                 243000,
                 256000,
                 22000
+            ]
+        ]
+    ],
+    [
+        "Wish",
+        [
+            [
+                "L3",
+                "(Entry Level)",
+                null,
+                216000,
+                149000,
+                59000,
+                10000
+            ],
+            [
+                "L4",
+                null,
+                null,
+                293000,
+                192000,
+                100000,
+                1100
+            ],
+            [
+                "L5",
+                null,
+                null,
+                341000,
+                211000,
+                130000,
+                0
             ]
         ]
     ],
@@ -2270,6 +6014,106 @@
                 248000,
                 305000,
                 54000
+            ]
+        ]
+    ],
+    [
+        "Lyft",
+        [
+            [
+                "T3",
+                "Software Engineer",
+                "(Entry Level)",
+                232000,
+                135000,
+                74000,
+                26000
+            ],
+            [
+                "T4",
+                null,
+                null,
+                300000,
+                169000,
+                120000,
+                13000
+            ],
+            [
+                "T5",
+                null,
+                null,
+                405000,
+                195000,
+                196000,
+                14000
+            ],
+            [
+                "T6",
+                "Staff Engineer",
+                null,
+                514000,
+                222000,
+                286000,
+                4100
+            ],
+            [
+                "T7",
+                null,
+                null,
+                848000,
+                244000,
+                603000,
+                1000
+            ]
+        ]
+    ],
+    [
+        "Instacart",
+        [
+            [
+                "L3",
+                "Engineer",
+                "(Entry Level)",
+                230000,
+                144000,
+                103000,
+                0
+            ],
+            [
+                "L4",
+                "Engineer 2",
+                null,
+                316000,
+                170000,
+                139000,
+                6400
+            ],
+            [
+                "L5",
+                "Senior Engineer",
+                null,
+                356000,
+                190000,
+                167000,
+                11000
+            ],
+            [
+                "L6",
+                "Senior Engineer 2",
+                null,
+                518000,
+                211000,
+                297000,
+                11000
+            ],
+            [
+                "L7",
+                "Staff Engineer",
+                null,
+                732000,
+                256000,
+                474000,
+                2000
             ]
         ]
     ],
@@ -2393,6 +6237,20 @@
                 185000,
                 274000,
                 27000
+            ]
+        ]
+    ],
+    [
+        "Discord",
+        [
+            [
+                "L3",
+                "Senior Software Engineer",
+                null,
+                303000,
+                184000,
+                111000,
+                8500
             ]
         ]
     ],

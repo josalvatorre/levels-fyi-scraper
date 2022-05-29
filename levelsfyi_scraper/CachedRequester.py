@@ -17,4 +17,10 @@ class CachedRequester:
             lambda: requests.get(url),
         )
 
+    def clear(
+        self: "CachedRequester", url: str, missing_ok: bool = False
+    ) -> None:
+        self.cache.clear(url, missing_ok)
+        pass
+
     pass
