@@ -23,10 +23,8 @@ class PickleFileCache:
         cache_path = self._cache_path(key)
         if cache_path.exists():
             with open(cache_path, "rb") as cache_file:
-                print(f"cache hit for {key}")
                 return pickle.load(cache_file)
 
-        print(f"cache miss for '{key}'")
         value = getter()
         with open(cache_path, "wb") as cache_file:
             pickle.dump(value, cache_file)
