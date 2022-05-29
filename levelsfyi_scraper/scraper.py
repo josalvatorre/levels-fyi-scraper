@@ -1,19 +1,39 @@
+import itertools
+import json
 import pathlib
+import statistics
 import urllib
-from typing import Iterable, NamedTuple, Optional
+from typing import (
+    Iterable,
+    NamedTuple,
+    Optional,
+    Sequence,
+    Tuple,
+    TypeVar,
+    Union,
+)
 
 import bs4
 
 from . import utils
 from .CachedRequester import CachedRequester
+from .PickleFileCache import PickleFileCache
+
+T = TypeVar("T")
 
 HTML_PARSER = "html.parser"
 ROOT_URL = "https://www.levels.fyi"
 COMPANY_DIRECTORY_URL = urllib.parse.urljoin(ROOT_URL, "company")
 
 cache_dir = pathlib.Path(pathlib.Path.cwd(), "cache_dir")
-cache_dir.mkdir(exist_ok=True)
-cached_requester = CachedRequester(cache_dir)
+requests_cache_dir = pathlib.Path(cache_dir, "requests")
+salary_levels_cache_dir = pathlib.Path(cache_dir, "salary-urls")
+
+for dir_ in (requests_cache_dir, salary_levels_cache_dir):
+    dir_.mkdir(exist_ok=True, parents=True)
+
+cached_requester = CachedRequester(requests_cache_dir)
+salary_levels_cache = PickleFileCache(salary_levels_cache_dir)
 
 company_directory = bs4.BeautifulSoup(
     cached_requester.get(COMPANY_DIRECTORY_URL).text,
@@ -36,6 +56,13 @@ class LevelSalary(NamedTuple):
     base: int
     stock: int
     bonus: int
+
+    def names(self: "LevelSalary") -> Tuple[str, ...]:
+        return tuple(
+            name for name in (self.level_name, self.title, self.layman_title)
+            if name is not None
+        )
+
     pass
 
 
@@ -85,11 +112,58 @@ def salary_rows(swe_salary_page: bs4.BeautifulSoup) -> Iterable[LevelSalary]:
     return map(to_level_salary, rows)
 
 
-company_salary_rows = [
-    rows
-    for salary_url in swe_urls
-    if (
-        rows := utils.if_error(
+def guess_entry_mid_mean_tc(salaries: Sequence[LevelSalary]) -> int:
+    def index_with_substring_match(
+        substrings: Sequence[str],
+        default: T,
+    ) -> Union[int, T]:
+        return next(
+            (
+                i
+                for i, level in enumerate(salaries)
+                if any(
+                    any(substr in desc for substr in substrings)
+                    for desc in map(str.lower, level.names())
+                )
+            ),
+            default,
+        )
+
+    if len(salaries) == 0:
+        raise Exception("no salary rows given")
+    elif len(salaries) == 1:
+        # This surely indicates incomplete data. However, there's no way to
+        # tell what level this is. We have to guess that it represents the mean
+        # for all levels.
+        return salaries[0].total
+
+    entry_index = index_with_substring_match(("entry", "junior"), 0)
+    senior_index = index_with_substring_match(
+        ("senior",),
+        min(2, len(salaries) - 1),
+    )
+    if entry_index == senior_index:
+        # Apparently, there are companies where senior is entry level.
+        return salaries[entry_index].total
+
+    return statistics.mean(
+        itertools.islice(
+            (salary.total for salary in salaries),
+            entry_index,
+            senior_index,
+        )
+    )
+
+
+def company_name_from_url(url: str) -> str:
+    chunks = url.split("/")
+    return chunks[chunks.index("company") + 1]
+
+
+company_salary_rows = {
+    company_name_from_url(salary_url): salary_levels_cache.get(
+        company_name_from_url(salary_url),
+        lambda: utils.if_error(
             lambda: tuple(
                 salary_rows(
                     bs4.BeautifulSoup(
@@ -97,11 +171,31 @@ company_salary_rows = [
                         HTML_PARSER,
                     )
                 )
-            )
-        )
+            ),
+            "error getting salary rows",
+        ),
     )
-    is not None
-]
+    for salary_url in swe_urls
+}
+highest_pre_senior_companies = sorted(
+    (
+        (name, rows)
+        for name, rows in company_salary_rows.items()
+        if isinstance(rows, tuple) and 0 < len(rows)
+    ),
+    key=lambda pair: utils.if_error(
+        lambda: guess_entry_mid_mean_tc(pair[1]),
+        float("-inf"),
+    ),
+)
 
 with open("company_salary_rows.txt", "w") as csr_file:
-    print(company_salary_rows, file=csr_file)
+    print(
+        json.dumps(
+            highest_pre_senior_companies,
+            sort_keys=True,
+            indent=4,
+            default=lambda salary_row: salary_row._asdict(),
+        ),
+        file=csr_file,
+    )

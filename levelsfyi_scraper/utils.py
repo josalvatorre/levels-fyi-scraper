@@ -1,6 +1,8 @@
 import itertools
 from typing import Callable, Generator, Iterable, TypeVar, Union
 
+import url_normalize
+
 T = TypeVar("T")
 U = TypeVar("U")
 
@@ -30,3 +32,10 @@ def if_error(function: Callable[[], T], substitute: U = None) -> Union[T, U]:
     except Exception as e:
         print(f"caught {e}")
         return substitute
+
+
+def normalized_http_url(url: str) -> str:
+    return url_normalize.url_normalize(
+        url.rstrip("/"),
+        'utf-8',
+    )
