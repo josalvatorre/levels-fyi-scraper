@@ -177,11 +177,9 @@ def company_name_and_salaries(
                     )
                 )
             ),
-            err_string,
         )
 
     company_name = company_name_from_url(swe_salary_url)
-    err_string = "error getting salary rows"
 
     rows = get_salaries()
     if not isinstance(rows, tuple):
