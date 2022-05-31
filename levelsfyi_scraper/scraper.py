@@ -21,32 +21,6 @@ from .PickleFileCache import PickleFileCache
 
 T = TypeVar("T")
 
-HTML_PARSER = "html.parser"
-ROOT_URL = "https://www.levels.fyi"
-COMPANY_DIRECTORY_URL = urllib.parse.urljoin(ROOT_URL, "company")
-
-cache_dir = pathlib.Path(pathlib.Path.cwd(), "cache_dir")
-requests_cache_dir = pathlib.Path(cache_dir, "requests")
-salary_levels_cache_dir = pathlib.Path(cache_dir, "salary-urls")
-
-for dir_ in (requests_cache_dir, salary_levels_cache_dir):
-    dir_.mkdir(exist_ok=True, parents=True)
-
-cached_requester = CachedRequester(requests_cache_dir)
-salary_levels_cache = PickleFileCache(salary_levels_cache_dir)
-
-company_directory = bs4.BeautifulSoup(
-    cached_requester.get(COMPANY_DIRECTORY_URL).text,
-    HTML_PARSER,
-)
-swe_urls = sorted(
-    urllib.parse.urljoin(
-        urllib.parse.urljoin(ROOT_URL, co.a.attrs["href"]),
-        "Software-Engineer",
-    )
-    for co in company_directory.select(".company-outline-container")
-)
-
 
 class LevelSalary(NamedTuple):
     level_name: str
@@ -187,6 +161,33 @@ def company_name_and_salaries(
         raise Exception("unexpected data type")
 
     return (company_name, rows)
+
+
+HTML_PARSER = "html.parser"
+ROOT_URL = "https://www.levels.fyi"
+COMPANY_DIRECTORY_URL = urllib.parse.urljoin(ROOT_URL, "company")
+
+cache_dir = pathlib.Path(pathlib.Path.cwd(), "cache_dir")
+requests_cache_dir = pathlib.Path(cache_dir, "requests")
+salary_levels_cache_dir = pathlib.Path(cache_dir, "salary-urls")
+
+for dir_ in (requests_cache_dir, salary_levels_cache_dir):
+    dir_.mkdir(exist_ok=True, parents=True)
+
+cached_requester = CachedRequester(requests_cache_dir)
+salary_levels_cache = PickleFileCache(salary_levels_cache_dir)
+
+company_directory = bs4.BeautifulSoup(
+    cached_requester.get(COMPANY_DIRECTORY_URL).text,
+    HTML_PARSER,
+)
+swe_urls = sorted(
+    urllib.parse.urljoin(
+        urllib.parse.urljoin(ROOT_URL, co.a.attrs["href"]),
+        "Software-Engineer",
+    )
+    for co in company_directory.select(".company-outline-container")
+)
 
 
 company_salary_rows = dict(
