@@ -90,7 +90,16 @@ def salary_rows(swe_salary_page: bs4.BeautifulSoup) -> Iterable[LevelSalary]:
 
 
 def guess_entry_mid_mean_tc(salaries: Sequence[LevelSalary]) -> int:
-    def index_with_substring_match(
+    """
+    Returns a guess at the average between entry-level and mid-level salaries.
+    We define entry-mid levels as all levels below senior.
+    This is to handle outliers such as Microsoft (which has multiple entry and
+    mid levels), LinkedIn (which only has an entry and senior level),
+    and other companies that don't follow the typical 3-level hierarchy
+    (entry, mid, senior).
+    """
+
+    def substring_match_index(
         substrings: Sequence[str],
         default: T,
     ) -> Union[int, T]:
@@ -114,20 +123,18 @@ def guess_entry_mid_mean_tc(salaries: Sequence[LevelSalary]) -> int:
         # for all levels.
         return salaries[0].total
 
-    entry_index = index_with_substring_match(("entry", "junior"), 0)
-    senior_index = index_with_substring_match(
+    entry_index = substring_match_index(("entry", "junior"), 0)
+    senior_index = substring_match_index(
         ("senior",),
         min(2, len(salaries) - 1),
     )
-    if entry_index == senior_index:
-        # Apparently, there are companies where senior is entry level.
-        return salaries[entry_index].total
 
     return statistics.mean(
         itertools.islice(
             (salary.total for salary in salaries),
             entry_index,
-            senior_index,
+            # Apparently, there are companies where senior is entry level.
+            max(senior_index, entry_index + 1),
         )
     )
 
