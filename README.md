@@ -21,7 +21,7 @@ Results are in `company_salary_rows_ascending.txt` and `company_salary_rows_desc
 Most company pages on levels fyi don't have enough data points to show salary statistics.
 For example: at time of writing, [Coda](https://www.levels.fyi/company/Coda/salaries/Software-Engineer/)
 doesn't have enough data for Levels FYI to visualize salary row bars like it does for
-[`Google`](https://www.levels.fyi/company/Coda/salaries/Software-Engineer/). That means that this
+[Google](https://www.levels.fyi/company/Coda/salaries/Software-Engineer/). That means that this
 scraper will ignore most companies, which are quite small.
 
 I sort by sub-senior total compensation because I am a mid-level engineer. Results vary when
