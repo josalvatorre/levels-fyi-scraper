@@ -1,3 +1,4 @@
 cache_dir/
+cache_dir-old/
 __pycache__/
 company_salary_rows.txt

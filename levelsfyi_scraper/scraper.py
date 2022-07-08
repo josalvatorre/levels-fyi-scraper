@@ -210,19 +210,31 @@ highest_pre_senior_companies = sorted(
         lambda: guess_entry_mid_mean_tc(pair[1]),
         float("-inf"),
     ),
-    reverse=True,
 )
 
-with open("company_salary_rows.txt", "w") as csr_file:
-    print(
-        json.dumps(
-            highest_pre_senior_companies,
-            sort_keys=True,
-            indent=4,
-            default=lambda salary_row: salary_row._asdict(),
-        ),
-        file=csr_file,
-    )
+with (
+    open("company_salary_rows_ascending.txt", "w") as csr_file,
+    open("company_salary_rows_descending.txt", "w") as csr_file_rev,
+):
+    for file, rev in (
+        (csr_file, False),
+        (csr_file_rev, True),
+    ):
+        lst = (
+            list(reversed(highest_pre_senior_companies))
+            if rev
+            else highest_pre_senior_companies
+        )
+        print(
+            json.dumps(
+                lst,
+                sort_keys=True,
+                indent=4,
+                default=lambda salary_row: salary_row._asdict(),
+            ),
+            file=file,
+        )
+
     print(
         json.dumps(
             [pair[0] for pair in highest_pre_senior_companies],
