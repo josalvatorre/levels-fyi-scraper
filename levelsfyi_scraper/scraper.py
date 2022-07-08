@@ -210,6 +210,7 @@ highest_pre_senior_companies = sorted(
         lambda: guess_entry_mid_mean_tc(pair[1]),
         float("-inf"),
     ),
+    reverse=True,
 )
 
 with open("company_salary_rows.txt", "w") as csr_file:
