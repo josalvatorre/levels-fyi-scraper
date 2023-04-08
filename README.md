@@ -24,5 +24,5 @@ doesn't have enough data for Levels FYI to visualize salary row bars like it doe
 [Google](https://www.levels.fyi/company/Coda/salaries/Software-Engineer/). That means that this
 scraper will ignore most companies, which are quite small.
 
-I sort by sub-senior total compensation because I am a mid-level engineer. Results vary when
-sorting by different levels.
+I sort by sub-senior total compensation because I was looking for a mid-level engineer position when I wrote this.
+Results vary when sorting by different levels.
